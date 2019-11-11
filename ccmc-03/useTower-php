@@ -1,5 +1,11 @@
-
-
+<?php
+require_once("class/Tower.php");
+$tokyoTower = new Tower("東京タワー" , 333, 1958);
+echo "<pre>";
+var_dump($tokyoTower);
+echo "<pre>";
+exit(0);
+?>
 <!DOCTYPE html>
 <html lang="ja">
 
